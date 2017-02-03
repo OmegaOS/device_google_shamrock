@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common OmegaOS stuff.
-$(call inherit-product, vendor/omega/config/common_full_phone.mk)
+$(call inherit-product, vendor/omega/common.mk)
 
 # Inherit from shamrock device
 $(call inherit-product, device/google/shamrock/device.mk)
